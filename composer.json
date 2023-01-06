@@ -1,0 +1,22 @@
+{
+    "name": "julyssn/think-filesystem-cloud",
+    "description": "The ThinkPHP6 Cloud Filesystem Package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Julyssn",
+            "email": "qiyue@189.cn"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "topthink/think-filesystem": "^1.0",
+        "overtrue/flysystem-qiniu": "^1.0",
+        "xxtime/flysystem-aliyun-oss": "^1.5"
+    },
+     "autoload": {
+        "psr-4": {
+            "think\\": "src/"
+        }
+    }
+}
